@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const url = 'http://192.168.1.3:5000/posts';
-const url = 'https://social-media-website-backend.onrender.com/posts';
+const url = 'http://localhost:5000/posts';
+// const url = 'https://social-media-website-backend.onrender.com/posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url,newPost);
