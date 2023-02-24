@@ -31,4 +31,9 @@ npm start
 6.	The app should now be running on http://localhost:3000/.
 ## Contributing
 Contributions are always welcome! If you have any suggestions or find any bugs, please open an issue or submit a pull request.
+## Status
+This project is currently in active development, with ongoing improvements and bug fixes being made.
+## Update
+Last updated: February 2023
 
+This project is still actively maintained, with ongoing development to improve its features and functionality.
