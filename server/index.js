@@ -12,6 +12,9 @@ app.use(bodyParser.urlencoded({limit: "30mb" , extended : true}));
 app.use(cors());
 
 app.use("/posts",postRoutes); 
+app.use("/",(req,res)=>{
+    res.status(200).json({message:"success"});
+})
 
 const CONNECTION_URL = "mongodb+srv://priyanshu1101:priyanshu1101@cluster0.bhvsw.mongodb.net/SocialMedia";
 const PORT = process.env.PORT || 5000;
